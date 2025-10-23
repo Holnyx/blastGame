@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es2015",
+		"module": "commonjs",
+		"lib": ["es2015", "es2017", "dom"],
+		"moduleResolution": "Node",
+		"outDir": "temp/vscode-dist",
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["assets/scripts", "**/*.ts"],
+	"exclude": ["node_modules", "library", "local", "temp", "build", "settings"]
+}

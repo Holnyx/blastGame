@@ -1,0 +1,23 @@
+{
+  "name": "cocos-blast",
+  "private": true,
+  "homepage": "https://Holnyx.github.io/blastGame",
+  "scripts": {
+    "build": "echo build/web-mobile",
+    "postbuild": "shx cp build/web-mobile/index.html build/web-mobile/404.html",
+    "deploy": "gh-pages -d build/web-mobile"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unused-imports": "^4.2.0",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.6.2",
+    "shx": "^0.3.4",
+    "typescript": "^5.9.3"
+  }
+}
